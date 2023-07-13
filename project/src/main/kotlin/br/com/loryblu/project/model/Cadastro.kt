@@ -11,7 +11,7 @@ import java.util.UUID
 @Entity
 @Table(name = "cadastro")
 data class Cadastro (
-    val name: String,
+    val nome: String,
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     val id: UUID
