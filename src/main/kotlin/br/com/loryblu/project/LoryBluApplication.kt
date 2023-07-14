@@ -1,11 +1,11 @@
-package br.com.loryblu.project
+package main.kotlin.br.com.loryblu.project
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class ProjectApplication
+class LoryBluApplication
 
 fun main(args: Array<String>) {
-	runApplication<ProjectApplication>(*args)
+	runApplication<LoryBluApplication>(*args)
 }
